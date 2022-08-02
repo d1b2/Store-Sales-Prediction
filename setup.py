@@ -8,7 +8,7 @@ AUTHOR="Dhruv Bakshi"
 DESRCIPTION="This is Store Sales Prediction Project taken as internship project for my FSDS course."
 PACKAGES=["storesales"]
 LICENSE = "GNU General Public License v3.0"
-PLATFORM = "Github and Heroku"
+#PLATFORM = "Github and Heroku"
 
 
 REQUIREMENT_FILE_NAME="requirements.txt"
