@@ -6,7 +6,7 @@ PROJECT_NAME="Store-sales-predictor"
 VERSION="0.0.1"
 AUTHOR="Dhruv Bakshi"
 DESRCIPTION="This is a Store Sales Predictor Project as part of FSDS intership."
-
+PACKAGES=["store"]
 REQUIREMENT_FILE_NAME="requirements.txt"
 
 HYPHEN_E_DOT = "-e ."
