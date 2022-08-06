@@ -3,9 +3,9 @@ __pycache__/
 *.py[cod]
 *$py.class
 
-# some custome files
-#insurance/artifact
-#saved_models/*
+# custome files
+store/artifact
+saved_models/*
 
 # C extensions
 *.so

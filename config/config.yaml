@@ -3,17 +3,22 @@ training_pipeline_config:
   artifact_dir: artifact
 
 data_ingestion_config:
-  raw_train_dir: raw_train_data
-  raw_test_dir: raw_test_data
-  ingested_dir: ingested_data
-  ingested_train_dir: train
-  ingested_test_dir: test 
+dataset_download_url: https://github.com/d1b2/Store-Sales-Prediction/raw/main/Dataset/store_sales.tgz
+raw_data_dir: raw_data
+tgz_download_dir: tgz_data
+ingested_dir: ingested_data
+ingested_train_dir: train
+ingested_test_dir: test 
+
 
 
 
 
 data_validation_config:
+  schema_dir: config
   schema_file_name: schema.yaml
+  report_file_name: report.json
+  report_page_file_name: report.html
 
 data_transformation_config:
   transformed_dir: transformed_data
